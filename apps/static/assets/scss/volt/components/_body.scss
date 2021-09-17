@@ -29,3 +29,34 @@ label {
     font-weight: $font-weight-bold;
     margin-bottom:.5rem;
 }
+
+
+#pagediv {
+   color: #012c15;
+   text-shadow: darkgrey 1px 1px 0;
+   font-family: 'Exo', sans-serif;
+   font-size: 200%;
+   background-color: #dce6ef;
+   line-height: 200%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 40px;
+   background: #cedce7; /* Old browsers */
+   background: -moz-linear-gradient(top,  #FFE5B0 0%,  #C2FBFF 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #FFE5B0 0%, #C2FBFF 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #FFE5B0 0%, #C2FBFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbe5f9', endColorstr='#fbfbf2',GradientType=0 );
+	  border: 20px solid transparent;
+	  -moz-border-image: -moz-linear-gradient(top,  #C2FBFF 0%,  #FFE5B0 100%);
+	  -webkit-border-image: -webkit-linear-gradient(top, #C2FBFF 0%,  #FFE5B0 100%);
+	  border-image: linear-gradient(to bottom, #C2FBFF 0%,  #FFE5B0 100%);
+	  border-image-slice: 1;
+/*     max-width: 2100px; */
+    min-width: 400px;
+    width: 80%;
+    height: 100%;
+    display: block;
+
+}

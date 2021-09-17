@@ -67,19 +67,19 @@
 </head>
 <body>
 
-    {% include 'includes/sidebar.html' %}
-    
-    <main class="content">
-
+<!--    {% include 'includes/sidebar.html' %}-->
+ 
       {% include 'includes/navigation.html' %}
+
+    <main class="content">
 
       {% block content %}{% endblock content %} 
 
       {% include 'includes/settings-box.html' %}
-
       {% include 'includes/footer.html' %}
-
+      
     </main>
+
 
   {% include 'includes/scripts.html' %}
     
