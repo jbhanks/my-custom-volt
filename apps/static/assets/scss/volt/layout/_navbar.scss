@@ -2,6 +2,53 @@
  * = Navigation bars
  */
 
+
+nav.top {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    z-index: 2;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 35px;
+    position: fixed;
+    top: 0;
+}
+
+nav ul a:link {
+  color: #2FC4CC;
+  padding-left: 35px;
+}
+
+nav ul a:visited {
+  color: #2FC4CC;
+  padding-left: 35px;
+}
+
+nav ul li {
+    float: left;
+    padding-left: 35px;
+}
+
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background-color: #111;
+    padding-left: 35px;
+}
+
  .navbar-main {
     position: absolute;
     top: 0;
