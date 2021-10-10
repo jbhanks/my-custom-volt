@@ -68,23 +68,23 @@
 <body>
 
 <!--    {% include 'includes/sidebar.html' %}-->
- 
+ <header>
       {% include 'includes/navigation.html' %}
-
+</header>
     <main class="content">
 
       {% block content %}{% endblock content %} 
 
-      {% include 'includes/settings-box.html' %}
-      {% include 'includes/footer.html' %}
+
       
     </main>
-
+      {% include 'includes/settings-box.html' %}
+      {% include 'includes/footer.html' %}
 
   {% include 'includes/scripts.html' %}
     
   <!-- Specific Page JS goes HERE  -->
-  {% block javascripts %}{% endblock javascripts %}  
+<!--   {% block javascripts %}{% endblock javascripts %}   -->
       
 </body>
 </html>

@@ -3,51 +3,70 @@
  */
 
 #titlediv {
-    background-color:$primary;
-    width: 100%;
-    height: auto;
-    padding-top: 40px;
-    padding-left: 35px;
-    padding-bottom: 20px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 35px;
+        background-color:#203446;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
 .title {
     color: #07DE6C;
     font-family: 'MuseoModerno', cursive;
-/*     font-family: 'Monoton', cursive; */
     font-weight: 400;
     font-size: 70px;
-    padding-left: 35px;
+    padding: 0px 0px 0px 0px;
     text-shadow: #07D1DE 0px 0px 10px;
-    /* text-shadow: #07D1DE 1px 1px 0; */
 }
+
+
+/* NAV STYLES */
 
 
 nav.top {
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
-    z-index: 2;
+    z-index: 3;
+    height: auto;
     width: 100%;
     padding-right: 0px;
     margin-right: 0px;
     padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 0px;
-    margin-left: 35px;
+    margin-left: 0px;
     position: fixed;
     top: 0;
 }
 
+
+
+nav ul {
+/*     font-family: 'MuseoModerno'; */
+/*     font-family: 'Exo', sans-serif; */
+    font-weight: 50;
+    font-size: 30px;
+/*     font-family: 'Special Elite', cursive; */
+/*     font-family: 'Righteous', cursive; */
+   font-family: 'Exo', sans-serif;
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px 0px 0px 35px;
+    //padding-left: 35px;
+    overflow: hidden;
+    background-color: #013638;
+    text-shadow: #07D1DE 0px 0px 1.5px;
+}
+
 nav ul a:link {
-  color: $link-color;
+  color: #2FC4CC;
   padding-left: 35px;
 }
 
 nav ul a:visited {
-  color: $link-color;
+  color: #2FC4CC;
   padding-left: 35px;
 }
 
@@ -61,8 +80,8 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 35px;
-    padding-left: 35px;
+    padding: 15px 35px;
+    //padding-left: 35px;
     text-decoration: none;
 }
 
